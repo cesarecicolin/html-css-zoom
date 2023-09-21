@@ -37,10 +37,20 @@
     padding: 0.3rem;
 }
 
+.square{
+    text-align: center;
+    
+    margin: 0 1rem;
+    
+}
+.square i{
+    font-size: 2rem;
+
+}
 /* header */
 header{
-    height: 5rem;
-    border: 1px solid white;
+    height: 2rem;
+    
     background-color: #0e0e0e;
 }
 
@@ -64,8 +74,49 @@ header{
 
 .comand-bar{
     background-color: #222222;
+    padding: 0.5rem
+    ;
+}
 
-    /* debug */
-    min-height: 80px;
-    border: 1px solid white;
+.comand-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sub-flex{
+    display: flex;
+    
+}
+.left{
+    width: 30%;
+    
+    
+}
+
+.mid{
+    width: 60%;
+    
+}
+
+.right{
+    width: 10%;
+   
+    
+}
+
+.comand-bar span{
+    font-size: 2rem;
+    margin: 0 .5rem;
+}
+
+.end{
+    color: red;
+    background-color: gray;
+    
+    padding: 1rem;
+    
+}
+.fa-share-from-square{
+    color: green;
 }
